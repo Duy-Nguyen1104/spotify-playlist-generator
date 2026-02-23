@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: "postgres:latest"
+    environment:
+      - "POSTGRES_DB=playlist_generator"
+      - "POSTGRES_PASSWORD=${DATABASE_PASSWORD:-password}"
+      - "POSTGRES_USER=${DATABASE_USERNAME:-user}"
+    ports:
+      - "5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5

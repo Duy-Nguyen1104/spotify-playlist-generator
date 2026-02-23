@@ -1,0 +1,88 @@
+body {
+  background-color: #0d1117;
+  color: #e6edf3;
+  min-height: 100vh;
+}
+
+.navbar-custom {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  border-bottom: 1px solid #30363d;
+}
+
+.card-mood {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+}
+
+.btn-spotify {
+  background-color: #1db954;
+  color: white;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+
+.btn-spotify:hover {
+  background-color: #1ed760;
+  color: white;
+  transform: scale(1.03);
+  box-shadow: 0 4px 15px rgba(29, 185, 84, 0.4);
+}
+
+.mood-textarea {
+  background: #0d1117;
+  border: 1px solid #30363d;
+  color: #e6edf3;
+  border-radius: 8px;
+  resize: vertical;
+}
+
+.mood-textarea:focus {
+  background: #0d1117;
+  border-color: #1db954;
+  color: #e6edf3;
+  box-shadow: 0 0 0 0.2rem rgba(29, 185, 84, 0.25);
+}
+
+.track-item {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  transition: border-color 0.2s;
+}
+
+.track-item:hover {
+  border-color: #1db954;
+}
+
+.playlist-header {
+  background: linear-gradient(135deg, #1a1a2e 0%, #0d2137 100%);
+  border: 1px solid #30363d;
+  border-radius: 12px;
+}
+
+.form-control, .form-select, .form-range {
+  background-color: #0d1117;
+  border-color: #30363d;
+  color: #e6edf3;
+}
+
+.form-control:focus, .form-select:focus {
+  background-color: #0d1117;
+  border-color: #1db954;
+  color: #e6edf3;
+  box-shadow: 0 0 0 0.2rem rgba(29, 185, 84, 0.25);
+}
+
+.form-check-input:checked {
+  background-color: #1db954;
+  border-color: #1db954;
+}
+
+.form-control::placeholder {
+  color: #6e7681;
+}
