@@ -19,6 +19,7 @@ An AI-powered Spotify playlist generator. Describe what you want to listen to in
 - Java 21+
 - Node.js 20+
 - Docker (for local PostgreSQL)
+- A spotify premium account
 - [Spotify Developer App](https://developer.spotify.com/dashboard) (free)
 - [Google AI Studio API key](https://aistudio.google.com/) (free tier available)
 
